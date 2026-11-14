@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0013-roman-to-integer](https://github.com/muskansharmaarmy-cmyk/leetcode-solutions/tree/master/0013-roman-to-integer) |
+| [0073-set-matrix-zeroes](https://github.com/muskansharmaarmy-cmyk/leetcode-solutions/tree/master/0073-set-matrix-zeroes) |
 ## Math
 |  |
 | ------- |
@@ -28,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0054-spiral-matrix](https://github.com/muskansharmaarmy-cmyk/leetcode-solutions/tree/master/0054-spiral-matrix) |
 | [0056-merge-intervals](https://github.com/muskansharmaarmy-cmyk/leetcode-solutions/tree/master/0056-merge-intervals) |
 | [0066-plus-one](https://github.com/muskansharmaarmy-cmyk/leetcode-solutions/tree/master/0066-plus-one) |
+| [0073-set-matrix-zeroes](https://github.com/muskansharmaarmy-cmyk/leetcode-solutions/tree/master/0073-set-matrix-zeroes) |
 | [0189-rotate-array](https://github.com/muskansharmaarmy-cmyk/leetcode-solutions/tree/master/0189-rotate-array) |
 ## Trie
 |  |
@@ -56,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/muskansharmaarmy-cmyk/leetcode-solutions/tree/master/0054-spiral-matrix) |
+| [0073-set-matrix-zeroes](https://github.com/muskansharmaarmy-cmyk/leetcode-solutions/tree/master/0073-set-matrix-zeroes) |
 ## Simulation
 |  |
 | ------- |
