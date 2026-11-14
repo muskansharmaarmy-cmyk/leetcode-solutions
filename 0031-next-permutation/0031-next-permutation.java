@@ -1,0 +1,43 @@
+class Solution {
+    public void nextPermutation(int[] nums) {
+
+        int n = nums.length;
+        int i = n - 2;
+
+        // Step 1: Find the first decreasing element from right
+        while (i >= 0 && nums[i] >= nums[i + 1]) {
+            i--;
+        }
+
+        // Step 2: Find the next greater element from right
+        if (i >= 0) {
+            int j = n - 1;
+
+            while (nums[j] <= nums[i]) {
+                j--;
+            }
+
+            // Step 3: Swap both elements
+            swap(nums, i, j);
+        }
+
+        // Step 4: Reverse the elements after index i
+        reverse(nums, i + 1, n - 1);
+    }
+
+    // Method to swap two elements
+    public void swap(int[] nums, int i, int j) {
+        int temp = nums[i];
+        nums[i] = nums[j];
+        nums[j] = temp;
+    }
+
+    // Method to reverse the array
+    public void reverse(int[] nums, int start, int end) {
+        while (start < end) {
+            swap(nums, start, end);
+            start++;
+            end--;
+        }
+    }
+}
